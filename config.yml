@@ -1,0 +1,6 @@
+Options:
+  CooldownSec: 1800 # 30 minutes
+  ErrorCooldown: "&4&lВы не отыграли нужного кол-во времени"
+  Commands:
+  - give %player% diamond
+  - crates give %player% donate 1

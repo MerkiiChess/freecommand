@@ -1,0 +1,6 @@
+name: FreeCommand
+version: 1.0
+main: ru.merkii.FreeCommand
+author: Merkii
+website: vk.com/lima_2005
+softdepend: [ CommonLib ]
