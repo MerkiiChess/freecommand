@@ -11,7 +11,4 @@ public class FreeCommand extends JavaPlugin {
 	public static FreeCommand getInstance() {
 		return FreeCommand.instance;
 	}
-	public static String color() {
-		return ChatColor.translateAlternateColorCodes('&', "§");
-	}
 }
