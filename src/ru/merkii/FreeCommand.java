@@ -7,8 +7,9 @@ public class FreeCommand extends JavaPlugin {
 	private static FreeCommand instance;
 	public void onEnable() {
 		saveDefaultConfig();
+		instance = this;
 	}
 	public static FreeCommand getInstance() {
-		return FreeCommand.instance;
+		return instance;
 	}
 }
